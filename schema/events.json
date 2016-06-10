@@ -1,0 +1,85 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/system/tenantObject.schema",
+  "properties": {
+    "date":{
+    },
+    "artist":{
+      "comment": "link to artist document"
+    },
+    "venue":{
+      "comment": "link to venue document, location stored with venue"
+    },
+    "currency":{
+    },
+    "eventType":{
+      "comment": "live/DJ"
+    },
+    "status":{
+    },
+    "expensesBalanced":{
+
+    },
+    "fee":{
+    },
+    "comment": "Should travelIncluded, internalTransfers & accomodation be stored as allowed expenses? What gigchief functions do they enable if true?",
+    "travelIncluded":{
+    },
+    "internalTransfers":{
+    },
+    "accomodation":{
+    },
+    "catering":{
+    },
+    "rider":{
+      "comment": "is rider information stored here of in seperate collection?"
+    },
+    "notes":{
+    },
+    "touringParty":{
+      "comment": "could be a number, or array of touring party members"
+    },
+    "setLength":{
+    },
+    "tax":{
+      "comment": "what info needs to be recorded about tax. Is this boolean, or tax %"
+    },
+    "taxNotes":{
+    },
+    "promoter":{
+      "comment": "link to promoter document"
+    },
+    "agentPercentage":{
+    },
+    "bookingFee":{
+      "comment": "promoter pays the agent a booking fee",
+      "agreed":{},
+      "amount":{}
+    },
+    "deposit":{
+      "properties": {
+        "percentage":{},
+        "date":{},
+        "amount":{},
+        "paid":{}
+      }
+    },
+    "ref":{
+      "comment": "what is this figure in the master workbook"
+    },
+    "agentVATCharge":{
+    },
+    "agentVARReceived":{
+    },
+    "artistVATCharged":{
+    },
+    "artistVATReceived":{
+    },
+    "promoterVAT":{
+    },
+    "dateAdded":{},
+    "dateAnounced":{}
+  }
+}
